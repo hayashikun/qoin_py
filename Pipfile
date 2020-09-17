@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fire = "*"
+numpy = "*"
+pyautogui = "*"
+grpcio = "*"
+grpcio-tools = "*"
+opencv-python = "3.4"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+qoin_py = "python main.py"
+codegen = "python codegen.py"
